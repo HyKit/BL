@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EC7D2A938E817882F316129 /* libPods-TallyDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 670503BC9D1F3FC295263ACF /* libPods-TallyDemo.a */; };
+		BD3B68CD1F305203003FBB13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B68CC1F305203003FBB13 /* main.m */; };
+		BD3B68D01F305203003FBB13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B68CF1F305203003FBB13 /* AppDelegate.m */; };
+		BD3B68D31F305203003FBB13 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B68D21F305203003FBB13 /* FirstViewController.m */; };
+		BD3B68D61F305203003FBB13 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B68D51F305203003FBB13 /* SecondViewController.m */; };
+		BD3B68D91F305203003FBB13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3B68D71F305203003FBB13 /* Main.storyboard */; };
+		BD3B68DB1F305203003FBB13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3B68DA1F305203003FBB13 /* Assets.xcassets */; };
+		BD3B68DE1F305203003FBB13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3B68DC1F305203003FBB13 /* LaunchScreen.storyboard */; };
+		BD3B68E71F305566003FBB13 /* NumberKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B68E61F305566003FBB13 /* NumberKeyboard.m */; };
+		BD3B68EA1F316FC2003FBB13 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B68E91F316FC2003FBB13 /* ThirdViewController.m */; };
+		BD3B68EE1F3303B5003FBB13 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B68ED1F3303B5003FBB13 /* CustomView.m */; };
+		BD3B68F51F330A94003FBB13 /* SkillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B68F41F330A94003FBB13 /* SkillViewController.m */; };
+		BD3B68F81F330C94003FBB13 /* SkillTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B68F71F330C94003FBB13 /* SkillTableViewController.m */; };
+		BD3B68FB1F330F9F003FBB13 /* Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B68FA1F330F9F003FBB13 /* Extras.m */; };
+		BD3B68FE1F331A4C003FBB13 /* KnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B68FD1F331A4C003FBB13 /* KnowViewController.m */; };
+		BD3B69091F33217B003FBB13 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B69021F33217B003FBB13 /* DetailViewController.m */; };
+		BD3B690A1F33217B003FBB13 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD3B69031F33217B003FBB13 /* DetailViewController.xib */; };
+		BD3B690B1F33217B003FBB13 /* UIView+WZB.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B69061F33217B003FBB13 /* UIView+WZB.m */; };
+		BD3B690C1F33217B003FBB13 /* WZBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B69081F33217B003FBB13 /* WZBViewController.m */; };
+		BD3B69111F332386003FBB13 /* WZBGradualLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B69101F332386003FBB13 /* WZBGradualLabel.m */; };
+		BD3B69141F332398003FBB13 /* WZBGradualLabelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B69131F332398003FBB13 /* WZBGradualLabelVC.m */; };
+		BD3B692B1F344DE8003FBB13 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B691F1F344DE8003FBB13 /* MessageTableViewCell.m */; };
+		BD3B692C1F344DE8003FBB13 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD3B69201F344DE8003FBB13 /* MessageTableViewCell.xib */; };
+		BD3B692D1F344DE8003FBB13 /* LiveVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B69231F344DE8003FBB13 /* LiveVideoController.m */; };
+		BD3B692E1F344DE8003FBB13 /* SongWordController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B69251F344DE8003FBB13 /* SongWordController.m */; };
+		BD3B692F1F344DE8003FBB13 /* GradualRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B69271F344DE8003FBB13 /* GradualRootVC.m */; };
+		BD3B69301F344DE8003FBB13 /* WZBGradualTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B692A1F344DE8003FBB13 /* WZBGradualTableView.m */; };
+		BD3B69351F344F5D003FBB13 /* SongWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD3B69311F344F5D003FBB13 /* SongWords.plist */; };
+		BD3B69361F344F5D003FBB13 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD3B69321F344F5D003FBB13 /* 1.jpg */; };
+		BD3B69371F344F5D003FBB13 /* 2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = BD3B69331F344F5D003FBB13 /* 2.PNG */; };
+		BD3B69381F344F5D003FBB13 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD3B69341F344F5D003FBB13 /* 3.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		670503BC9D1F3FC295263ACF /* libPods-TallyDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TallyDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B151A694669A2A208287859B /* Pods-TallyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TallyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TallyDemo/Pods-TallyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B4AFB24F21A59213F3C11E48 /* Pods-TallyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TallyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TallyDemo/Pods-TallyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BD3B68C81F305203003FBB13 /* TallyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TallyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD3B68CC1F305203003FBB13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD3B68CE1F305203003FBB13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD3B68CF1F305203003FBB13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD3B68D11F305203003FBB13 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		BD3B68D21F305203003FBB13 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		BD3B68D41F305203003FBB13 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BD3B68D51F305203003FBB13 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BD3B68D81F305203003FBB13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD3B68DA1F305203003FBB13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD3B68DD1F305203003FBB13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD3B68DF1F305203003FBB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD3B68E51F305566003FBB13 /* NumberKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberKeyboard.h; sourceTree = "<group>"; };
+		BD3B68E61F305566003FBB13 /* NumberKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberKeyboard.m; sourceTree = "<group>"; };
+		BD3B68E81F316FC2003FBB13 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		BD3B68E91F316FC2003FBB13 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		BD3B68EC1F3303B5003FBB13 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		BD3B68ED1F3303B5003FBB13 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		BD3B68F01F33043C003FBB13 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BD3B68F21F3305A0003FBB13 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		BD3B68F31F330A94003FBB13 /* SkillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkillViewController.h; sourceTree = "<group>"; };
+		BD3B68F41F330A94003FBB13 /* SkillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkillViewController.m; sourceTree = "<group>"; };
+		BD3B68F61F330C94003FBB13 /* SkillTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkillTableViewController.h; sourceTree = "<group>"; };
+		BD3B68F71F330C94003FBB13 /* SkillTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkillTableViewController.m; sourceTree = "<group>"; };
+		BD3B68F91F330F9F003FBB13 /* Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Extras.h; sourceTree = "<group>"; };
+		BD3B68FA1F330F9F003FBB13 /* Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Extras.m; sourceTree = "<group>"; };
+		BD3B68FC1F331A4C003FBB13 /* KnowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnowViewController.h; sourceTree = "<group>"; };
+		BD3B68FD1F331A4C003FBB13 /* KnowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowViewController.m; sourceTree = "<group>"; };
+		BD3B69011F33217B003FBB13 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BD3B69021F33217B003FBB13 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		BD3B69031F33217B003FBB13 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		BD3B69051F33217B003FBB13 /* UIView+WZB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WZB.h"; sourceTree = "<group>"; };
+		BD3B69061F33217B003FBB13 /* UIView+WZB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WZB.m"; sourceTree = "<group>"; };
+		BD3B69071F33217B003FBB13 /* WZBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZBViewController.h; sourceTree = "<group>"; };
+		BD3B69081F33217B003FBB13 /* WZBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZBViewController.m; sourceTree = "<group>"; };
+		BD3B690F1F332386003FBB13 /* WZBGradualLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZBGradualLabel.h; sourceTree = "<group>"; };
+		BD3B69101F332386003FBB13 /* WZBGradualLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZBGradualLabel.m; sourceTree = "<group>"; };
+		BD3B69121F332398003FBB13 /* WZBGradualLabelVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZBGradualLabelVC.h; sourceTree = "<group>"; };
+		BD3B69131F332398003FBB13 /* WZBGradualLabelVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZBGradualLabelVC.m; sourceTree = "<group>"; };
+		BD3B691E1F344DE8003FBB13 /* MessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		BD3B691F1F344DE8003FBB13 /* MessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		BD3B69201F344DE8003FBB13 /* MessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		BD3B69221F344DE8003FBB13 /* LiveVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveVideoController.h; sourceTree = "<group>"; };
+		BD3B69231F344DE8003FBB13 /* LiveVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveVideoController.m; sourceTree = "<group>"; };
+		BD3B69241F344DE8003FBB13 /* SongWordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongWordController.h; sourceTree = "<group>"; };
+		BD3B69251F344DE8003FBB13 /* SongWordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongWordController.m; sourceTree = "<group>"; };
+		BD3B69261F344DE8003FBB13 /* GradualRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradualRootVC.h; sourceTree = "<group>"; };
+		BD3B69271F344DE8003FBB13 /* GradualRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradualRootVC.m; sourceTree = "<group>"; };
+		BD3B69291F344DE8003FBB13 /* WZBGradualTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZBGradualTableView.h; sourceTree = "<group>"; };
+		BD3B692A1F344DE8003FBB13 /* WZBGradualTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZBGradualTableView.m; sourceTree = "<group>"; };
+		BD3B69311F344F5D003FBB13 /* SongWords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SongWords.plist; sourceTree = "<group>"; };
+		BD3B69321F344F5D003FBB13 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		BD3B69331F344F5D003FBB13 /* 2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.PNG; sourceTree = "<group>"; };
+		BD3B69341F344F5D003FBB13 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD3B68C51F305203003FBB13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC7D2A938E817882F316129 /* libPods-TallyDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9476491DC6D92712AAA5193F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				670503BC9D1F3FC295263ACF /* libPods-TallyDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD3B68BF1F305203003FBB13 = {
+			isa = PBXGroup;
+			children = (
+				BD3B68CA1F305203003FBB13 /* TallyDemo */,
+				BD3B68C91F305203003FBB13 /* Products */,
+				E19A13C486F42B3BB74251B1 /* Pods */,
+				9476491DC6D92712AAA5193F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD3B68C91F305203003FBB13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD3B68C81F305203003FBB13 /* TallyDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD3B68CA1F305203003FBB13 /* TallyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BD3B68F01F33043C003FBB13 /* PrefixHeader.pch */,
+				BD3B68CE1F305203003FBB13 /* AppDelegate.h */,
+				BD3B68CF1F305203003FBB13 /* AppDelegate.m */,
+				BD3B68D11F305203003FBB13 /* FirstViewController.h */,
+				BD3B68D21F305203003FBB13 /* FirstViewController.m */,
+				BD3B68E51F305566003FBB13 /* NumberKeyboard.h */,
+				BD3B68E61F305566003FBB13 /* NumberKeyboard.m */,
+				BD3B68D41F305203003FBB13 /* SecondViewController.h */,
+				BD3B68D51F305203003FBB13 /* SecondViewController.m */,
+				BD3B68E81F316FC2003FBB13 /* ThirdViewController.h */,
+				BD3B68E91F316FC2003FBB13 /* ThirdViewController.m */,
+				BD3B68FF1F33214C003FBB13 /* ThirdPart */,
+				BD3B68F11F3304BD003FBB13 /* Unity */,
+				BD3B68EB1F3303A7003FBB13 /* CustomView */,
+				BD3B68D71F305203003FBB13 /* Main.storyboard */,
+				BD3B68DA1F305203003FBB13 /* Assets.xcassets */,
+				BD3B68DC1F305203003FBB13 /* LaunchScreen.storyboard */,
+				BD3B68DF1F305203003FBB13 /* Info.plist */,
+				BD3B68CB1F305203003FBB13 /* Supporting Files */,
+			);
+			path = TallyDemo;
+			sourceTree = "<group>";
+		};
+		BD3B68CB1F305203003FBB13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD3B68CC1F305203003FBB13 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD3B68EB1F3303A7003FBB13 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				BD3B68EC1F3303B5003FBB13 /* CustomView.h */,
+				BD3B68ED1F3303B5003FBB13 /* CustomView.m */,
+				BD3B68F31F330A94003FBB13 /* SkillViewController.h */,
+				BD3B68F41F330A94003FBB13 /* SkillViewController.m */,
+				BD3B68FC1F331A4C003FBB13 /* KnowViewController.h */,
+				BD3B68FD1F331A4C003FBB13 /* KnowViewController.m */,
+				BD3B68F61F330C94003FBB13 /* SkillTableViewController.h */,
+				BD3B68F71F330C94003FBB13 /* SkillTableViewController.m */,
+				BD3B68F91F330F9F003FBB13 /* Extras.h */,
+				BD3B68FA1F330F9F003FBB13 /* Extras.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		BD3B68F11F3304BD003FBB13 /* Unity */ = {
+			isa = PBXGroup;
+			children = (
+				BD3B68F21F3305A0003FBB13 /* Header.h */,
+			);
+			path = Unity;
+			sourceTree = "<group>";
+		};
+		BD3B68FF1F33214C003FBB13 /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				BD3B691C1F344529003FBB13 /* WZBGradualTable */,
+				BD3B690D1F332386003FBB13 /* WZBGradualLabel */,
+				BD3B69001F33217B003FBB13 /* WZB */,
+			);
+			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		BD3B69001F33217B003FBB13 /* WZB */ = {
+			isa = PBXGroup;
+			children = (
+				BD3B69011F33217B003FBB13 /* DetailViewController.h */,
+				BD3B69021F33217B003FBB13 /* DetailViewController.m */,
+				BD3B69031F33217B003FBB13 /* DetailViewController.xib */,
+				BD3B69041F33217B003FBB13 /* UIView-WZB */,
+				BD3B69071F33217B003FBB13 /* WZBViewController.h */,
+				BD3B69081F33217B003FBB13 /* WZBViewController.m */,
+			);
+			path = WZB;
+			sourceTree = "<group>";
+		};
+		BD3B69041F33217B003FBB13 /* UIView-WZB */ = {
+			isa = PBXGroup;
+			children = (
+				BD3B69051F33217B003FBB13 /* UIView+WZB.h */,
+				BD3B69061F33217B003FBB13 /* UIView+WZB.m */,
+			);
+			path = "UIView-WZB";
+			sourceTree = "<group>";
+		};
+		BD3B690D1F332386003FBB13 /* WZBGradualLabel */ = {
+			isa = PBXGroup;
+			children = (
+				BD3B690E1F332386003FBB13 /* WZBGradualLabel */,
+				BD3B69121F332398003FBB13 /* WZBGradualLabelVC.h */,
+				BD3B69131F332398003FBB13 /* WZBGradualLabelVC.m */,
+			);
+			path = WZBGradualLabel;
+			sourceTree = "<group>";
+		};
+		BD3B690E1F332386003FBB13 /* WZBGradualLabel */ = {
+			isa = PBXGroup;
+			children = (
+				BD3B690F1F332386003FBB13 /* WZBGradualLabel.h */,
+				BD3B69101F332386003FBB13 /* WZBGradualLabel.m */,
+			);
+			path = WZBGradualLabel;
+			sourceTree = "<group>";
+		};
+		BD3B691C1F344529003FBB13 /* WZBGradualTable */ = {
+			isa = PBXGroup;
+			children = (
+				BD3B69311F344F5D003FBB13 /* SongWords.plist */,
+				BD3B69321F344F5D003FBB13 /* 1.jpg */,
+				BD3B69331F344F5D003FBB13 /* 2.PNG */,
+				BD3B69341F344F5D003FBB13 /* 3.jpg */,
+				BD3B691D1F344DE8003FBB13 /* Cell */,
+				BD3B69211F344DE8003FBB13 /* ViewController */,
+				BD3B69281F344DE8003FBB13 /* WZBGradualTableView */,
+			);
+			path = WZBGradualTable;
+			sourceTree = "<group>";
+		};
+		BD3B691D1F344DE8003FBB13 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BD3B691E1F344DE8003FBB13 /* MessageTableViewCell.h */,
+				BD3B691F1F344DE8003FBB13 /* MessageTableViewCell.m */,
+				BD3B69201F344DE8003FBB13 /* MessageTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BD3B69211F344DE8003FBB13 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BD3B69221F344DE8003FBB13 /* LiveVideoController.h */,
+				BD3B69231F344DE8003FBB13 /* LiveVideoController.m */,
+				BD3B69241F344DE8003FBB13 /* SongWordController.h */,
+				BD3B69251F344DE8003FBB13 /* SongWordController.m */,
+				BD3B69261F344DE8003FBB13 /* GradualRootVC.h */,
+				BD3B69271F344DE8003FBB13 /* GradualRootVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BD3B69281F344DE8003FBB13 /* WZBGradualTableView */ = {
+			isa = PBXGroup;
+			children = (
+				BD3B69291F344DE8003FBB13 /* WZBGradualTableView.h */,
+				BD3B692A1F344DE8003FBB13 /* WZBGradualTableView.m */,
+			);
+			path = WZBGradualTableView;
+			sourceTree = "<group>";
+		};
+		E19A13C486F42B3BB74251B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4AFB24F21A59213F3C11E48 /* Pods-TallyDemo.debug.xcconfig */,
+				B151A694669A2A208287859B /* Pods-TallyDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD3B68C71F305203003FBB13 /* TallyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD3B68E21F305203003FBB13 /* Build configuration list for PBXNativeTarget "TallyDemo" */;
+			buildPhases = (
+				98B10652F337731666E0EE7D /* [CP] Check Pods Manifest.lock */,
+				BD3B68C41F305203003FBB13 /* Sources */,
+				BD3B68C51F305203003FBB13 /* Frameworks */,
+				BD3B68C61F305203003FBB13 /* Resources */,
+				FF46EACEC7ACED9316E84DEC /* [CP] Embed Pods Frameworks */,
+				A9C3E45DA47647BBA36ABB33 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TallyDemo;
+			productName = TallyDemo;
+			productReference = BD3B68C81F305203003FBB13 /* TallyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD3B68C01F305203003FBB13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sky;
+				TargetAttributes = {
+					BD3B68C71F305203003FBB13 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BD3B68C31F305203003FBB13 /* Build configuration list for PBXProject "TallyDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD3B68BF1F305203003FBB13;
+			productRefGroup = BD3B68C91F305203003FBB13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD3B68C71F305203003FBB13 /* TallyDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD3B68C61F305203003FBB13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3B69381F344F5D003FBB13 /* 3.jpg in Resources */,
+				BD3B68DE1F305203003FBB13 /* LaunchScreen.storyboard in Resources */,
+				BD3B68DB1F305203003FBB13 /* Assets.xcassets in Resources */,
+				BD3B69371F344F5D003FBB13 /* 2.PNG in Resources */,
+				BD3B692C1F344DE8003FBB13 /* MessageTableViewCell.xib in Resources */,
+				BD3B68D91F305203003FBB13 /* Main.storyboard in Resources */,
+				BD3B690A1F33217B003FBB13 /* DetailViewController.xib in Resources */,
+				BD3B69351F344F5D003FBB13 /* SongWords.plist in Resources */,
+				BD3B69361F344F5D003FBB13 /* 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98B10652F337731666E0EE7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A9C3E45DA47647BBA36ABB33 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TallyDemo/Pods-TallyDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF46EACEC7ACED9316E84DEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TallyDemo/Pods-TallyDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD3B68C41F305203003FBB13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3B690C1F33217B003FBB13 /* WZBViewController.m in Sources */,
+				BD3B692D1F344DE8003FBB13 /* LiveVideoController.m in Sources */,
+				BD3B68D61F305203003FBB13 /* SecondViewController.m in Sources */,
+				BD3B68D01F305203003FBB13 /* AppDelegate.m in Sources */,
+				BD3B68FE1F331A4C003FBB13 /* KnowViewController.m in Sources */,
+				BD3B68EA1F316FC2003FBB13 /* ThirdViewController.m in Sources */,
+				BD3B68D31F305203003FBB13 /* FirstViewController.m in Sources */,
+				BD3B68EE1F3303B5003FBB13 /* CustomView.m in Sources */,
+				BD3B68FB1F330F9F003FBB13 /* Extras.m in Sources */,
+				BD3B68F81F330C94003FBB13 /* SkillTableViewController.m in Sources */,
+				BD3B692B1F344DE8003FBB13 /* MessageTableViewCell.m in Sources */,
+				BD3B69111F332386003FBB13 /* WZBGradualLabel.m in Sources */,
+				BD3B69141F332398003FBB13 /* WZBGradualLabelVC.m in Sources */,
+				BD3B68CD1F305203003FBB13 /* main.m in Sources */,
+				BD3B692F1F344DE8003FBB13 /* GradualRootVC.m in Sources */,
+				BD3B69301F344DE8003FBB13 /* WZBGradualTableView.m in Sources */,
+				BD3B68F51F330A94003FBB13 /* SkillViewController.m in Sources */,
+				BD3B690B1F33217B003FBB13 /* UIView+WZB.m in Sources */,
+				BD3B68E71F305566003FBB13 /* NumberKeyboard.m in Sources */,
+				BD3B692E1F344DE8003FBB13 /* SongWordController.m in Sources */,
+				BD3B69091F33217B003FBB13 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD3B68D71F305203003FBB13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD3B68D81F305203003FBB13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD3B68DC1F305203003FBB13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD3B68DD1F305203003FBB13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD3B68E01F305203003FBB13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD3B68E11F305203003FBB13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD3B68E31F305203003FBB13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4AFB24F21A59213F3C11E48 /* Pods-TallyDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TallyDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = TallyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sky.TallyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD3B68E41F305203003FBB13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B151A694669A2A208287859B /* Pods-TallyDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TallyDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = TallyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sky.TallyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD3B68C31F305203003FBB13 /* Build configuration list for PBXProject "TallyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3B68E01F305203003FBB13 /* Debug */,
+				BD3B68E11F305203003FBB13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD3B68E21F305203003FBB13 /* Build configuration list for PBXNativeTarget "TallyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3B68E31F305203003FBB13 /* Debug */,
+				BD3B68E41F305203003FBB13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD3B68C01F305203003FBB13 /* Project object */;
+}

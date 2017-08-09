@@ -1,0 +1,34 @@
+platform :ios, '8.0'
+target ‘TallyDemo’ do
+    
+  pod 'Masonry', '~> 1.0.1'
+  pod 'SDWebImage', '~> 3.8.1'
+  pod 'pop', '~> 1.0.9'
+pod 'AFNetworking'
+pod 'NJKWebViewProgress'
+pod 'UMengSocial'
+pod 'UMengAnalytics-NO-IDFA'
+pod 'MMDrawerController'
+pod 'SVProgressHUD'
+pod 'M80AttributedLabel'
+pod 'FMDB'
+pod 'CocoaLumberjack'
+pod 'ZipArchive'
+pod 'PureLayout'
+pod 'YYKit'
+pod 'JVFloatLabeledTextField'
+
+pod 'MBProgressHUD', '~> 0.9.1'
+pod 'MJRefresh', '~> 2.4.10'
+pod 'Toast', '~> 3.0'
+pod 'ReactiveCocoa', '~> 2.5'
+
+pod 'AMap3DMap'  #3D地图SDK
+#pod 'AMap2DMap' #2D地图SDK (2D和3D不能同时使⽤用)
+pod 'AMapSearch' #搜索功能
+
+
+pod "KRVideoPlayer"
+
+end
+
